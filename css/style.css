@@ -113,18 +113,25 @@ body {
     .header .contact .tel {
       color: inherit;
       text-decoration: none; }
-  .header .socials a {
-    font-size: 1.5em;
+  .header .navlinks a {
+    font-size: 1.25em;
+    color: inherit;
     display: inline-block;
     text-decoration: none;
-    margin-left: 1em; }
-    .header .socials a img {
-      height: 1em;
-      width: auto; }
+    margin-left: 1em;
+    text-transform: uppercase; }
 
 .main-content {
   margin-top: 2.5em;
   font-size: 2em; }
+  .main-content .socials a {
+    font-size: 1em;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: .5em; }
+    .main-content .socials a img {
+      height: 1em;
+      width: auto; }
   .main-content .projects-link {
     display: inline-block;
     text-decoration: none;
