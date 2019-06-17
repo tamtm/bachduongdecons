@@ -12,6 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
   <header class="header">
@@ -39,8 +40,8 @@
         </a>
       </div>
       <nav class="nav">
-        <a href="#">Giới thiệu</a>
-        <a href="#">Báo giá</a>
+        <a href="#gioi-thieu">Giới thiệu</a>
+        <a href="#bao-gia">Báo giá</a>
       </nav>
     </div>
   </header>
@@ -63,17 +64,17 @@
           </a>
         </p>
     </section>
-    <section class="about">
+    <section id="gioi-thieu" class="about">
       <div class="about__copy">
         <h2>Giới thiệu</h2>
-        <p>Chúng tôi là đơn vị chuyên về lĩnh vực <i>thiết kế</i>, <i>thi công</i> và <i>cung cấp lắp đặt các sản phẩm xây dựng - nội ngoại thất</i>. Với đội ngũ kỹ sư, thiết kế nhiều năm kinh nghiệm trong những lĩnh vực này, chúng tôi cam kết mang đến cho khách hàng các giá trị <i>riêng biệt</i>, <i>đẳng cấp</i> và <i>mang tính tiện nghi cao</i>.
+        <p>Chúng tôi là đơn vị chuyên về lĩnh vực thiết kế, thi công và cung cấp lắp đặt các sản phẩm xây dựng - nội ngoại thất. Với đội ngũ kỹ sư, thiết kế nhiều năm kinh nghiệm trong những lĩnh vực này, chúng tôi cam kết mang đến cho khách hàng các giá trị riêng biệt, đẳng cấp và mang tính tiện nghi cao.
         <br>
         <br>
-        Phương châm hoạt động của <i>BẠCH DƯƠNG</i>:
+        Phương châm hoạt động của BẠCH DƯƠNG:
         <br>
-        - <i>Chữ tín</i> là hàng đầu, chất lượng là trên hết, mang lại sự tin tưởng , hài lòng và niềm vui cho khách hàng.
+        - Chữ tín là hàng đầu, chất lượng là trên hết, mang lại sự tin tưởng , hài lòng và niềm vui cho khách hàng.
         <br>
-        - <i>BẠCH DƯƠNG</i> mang đến cho bạn những ý tưởng thẩm mỹ tốt nhất dựa trên sự kết hợp giữa bạn và kiến trúc sư, đem lại sự an toàn, tin tưởng cao cho công trình của bạn.
+        - BẠCH DƯƠNG mang đến cho bạn những ý tưởng thẩm mỹ tốt nhất dựa trên sự kết hợp giữa bạn và kiến trúc sư, đem lại sự an toàn, tin tưởng cao cho công trình của bạn.
         <br>
         -  Hướng tới sự thỏa mãn tuyệt đối yêu cầu dịch vụ của khách hàng.
         <br>
@@ -85,9 +86,18 @@
         </p>
       </div>
     </section>
+    <section id="bao-gia">
+      
+    </section>
   </main>
   <footer class="footer">
-    <p>Công ty thiết kế và xây dựng Bạch Dương. Copyright @ 2019. All right reserved</p>
+    <nav class="socials">
+      <a href="https://www.facebook.com/thietkexaydungbachduong/about" target="_blank">
+        <img src="images/facebook-box.svg" alt="">
+      </a>
+    </nav>
+    <p>Công ty thiết kế và xây dựng Bạch Dương. Copyright @ 2019</p>
   </footer>
+  <script src="js/anchorAnimatedScroll.js" defer></script>
 </body>
 </html>
