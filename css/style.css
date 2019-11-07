@@ -84,25 +84,27 @@ a {
     .logo .title b {
       font-size: 1.5em; }
 
-.contact {
-  margin-top: 1em; }
-  .contact a {
-    margin-bottom: 1em;
-    display: inline-block;
-    border-bottom: 1px dashed #aaa;
-    font-size: 1.25em; }
-  .contact img {
-    height: 1.25em;
-    width: auto;
-    vertical-align: -.2em; }
+.contact a {
+  margin-bottom: 1em;
+  display: inline-block;
+  border-bottom: 1px dashed #aaa;
+  font-size: 1.25em; }
+
+.contact img {
+  height: 1.25em;
+  width: auto;
+  vertical-align: -.2em; }
 
 .nav {
-  line-height: 1.6; }
+  line-height: 1.6;
+  font-size: 1.25em;
+  margin-bottom: 1em;
+  margin-left: -1em; }
   .nav a {
-    font-size: 1.25em;
-    display: block;
+    display: inline-block;
     text-transform: uppercase;
-    margin-top: .5em; }
+    margin-left: 1em;
+    font-weight: 600; }
 
 .header {
   position: absolute;
@@ -187,14 +189,13 @@ a {
   .header {
     padding: 20px; }
     .header__left {
-      font-size: .75em;
+      font-size: .875em;
       margin-bottom: 1em; }
     .header__right {
-      text-align: left;
       font-size: .875em; }
   .intro {
     padding: 20px;
-    padding-top: 320px;
+    padding-top: 360px;
     font-size: .65em; }
     .intro .notice {
       font-size: 2em; }
@@ -204,3 +205,8 @@ a {
     font-size: 1em; }
   .footer {
     font-size: .875em; } }
+
+@media screen and (max-width: 750px) {
+  .header__right {
+    margin-top: 1em;
+    text-align: left; } }
