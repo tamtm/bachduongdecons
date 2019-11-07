@@ -15,6 +15,26 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v5.0'
+      });
+    };
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    } (document, 'script', 'facebook-jssdk'));
+  </script>
+  <!-- Your customer chat code -->
+  <div class="fb-customerchat" attribution="setup_tool" page_id="101645477897490" theme_color="#d4a88c"></div>
+  
   <header class="header">
     <a href="/" class="header__left logo">
       <img src="images/bachduongdecons.png" alt="">
@@ -52,7 +72,7 @@
             <img src="images/facebook-messenger.svg" alt="">
           </a>
         </p>
-        <a class="projects-link" href="https://www.facebook.com/thietkexaydungbachduong/" target="_blank">
+        <a class="projects-link" href="https://www.facebook.com/xaydungbachduong/" target="_blank">
           <img src="images/hand-peace.svg" alt="">
           Xem các công trình đã hoàn thiện
           <img src="images/hand-peace.svg" alt="">
@@ -86,7 +106,7 @@
   </main>
   <footer class="footer">
     <nav class="socials">
-      <a href="https://www.facebook.com/thietkexaydungbachduong/about" target="_blank">
+      <a href="https://www.facebook.com/xaydungbachduong/about" target="_blank">
         <img src="images/facebook-box.svg" alt="">
       </a>
     </nav>
