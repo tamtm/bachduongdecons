@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /css/
+Disallow: /images/
+Disallow: /js/
+Disallow: /scss/
+Disallow: prepros-6.config
+Disallow: CNAME
