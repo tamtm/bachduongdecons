@@ -55,7 +55,8 @@ html {
   height: 100%; }
 
 body {
-  background: #fafafa; }
+  background: #fafafa;
+  color: #47470B; }
 
 address {
   font-style: normal; }
@@ -72,7 +73,7 @@ a {
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
-  height: 10em; }
+  height: 7.5em; }
   .logo img {
     height: 100%;
     width: auto;
@@ -89,6 +90,9 @@ a {
   display: inline-block;
   border-bottom: 1px dashed #aaa;
   font-size: 1.25em; }
+
+.contact address {
+  font-size: .79em; }
 
 .contact img {
   height: 1.25em;
@@ -132,8 +136,8 @@ a {
   width: 100%;
   min-height: 100vh;
   background-size: cover;
-  background-position: left top;
-  padding-top: 300px; }
+  background-position: left center;
+  padding-top: 250px; }
   .intro h1 {
     font-size: 2em; }
   .intro .projects-link {
@@ -141,7 +145,7 @@ a {
     display: inline-block;
     text-decoration: none;
     padding: .25em .5em;
-    background: #000;
+    background: #606417;
     color: #fff;
     margin: .5em 0; }
   .intro .notice {
@@ -156,7 +160,7 @@ a {
 
 .about {
   padding: 20px;
-  background: #111;
+  background: #47470B;
   color: #eee;
   line-height: 2; }
   .about i {
